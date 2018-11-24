@@ -13,6 +13,7 @@
 		7B1E0E4C21A9A7C400F8FBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E4B21A9A7C400F8FBE2 /* Assets.xcassets */; };
 		7B1E0E4F21A9A7C400F8FBE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E4D21A9A7C400F8FBE2 /* LaunchScreen.storyboard */; };
 		7B1E0E5221A9A7C400F8FBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E5121A9A7C400F8FBE2 /* main.m */; };
+		7B1E0E5A21A9AFE400F8FBE2 /* main.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E5921A9AFE400F8FBE2 /* main.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7B1E0E4E21A9A7C400F8FBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B1E0E5021A9A7C400F8FBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B1E0E5121A9A7C400F8FBE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B1E0E5921A9AFE400F8FBE2 /* main.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = main.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +64,22 @@
 				7B1E0E4321A9A7C400F8FBE2 /* AppDelegate.m */,
 				7B1E0E4521A9A7C400F8FBE2 /* ViewController.h */,
 				7B1E0E4621A9A7C400F8FBE2 /* ViewController.m */,
+				7B1E0E5821A9AF9000F8FBE2 /* supports */,
+				7B1E0E5021A9A7C400F8FBE2 /* Info.plist */,
+			);
+			path = iOSOpenCVDemo;
+			sourceTree = "<group>";
+		};
+		7B1E0E5821A9AF9000F8FBE2 /* supports */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E5921A9AFE400F8FBE2 /* main.plist */,
 				7B1E0E4821A9A7C400F8FBE2 /* Main.storyboard */,
 				7B1E0E4B21A9A7C400F8FBE2 /* Assets.xcassets */,
 				7B1E0E4D21A9A7C400F8FBE2 /* LaunchScreen.storyboard */,
-				7B1E0E5021A9A7C400F8FBE2 /* Info.plist */,
 				7B1E0E5121A9A7C400F8FBE2 /* main.m */,
 			);
-			path = iOSOpenCVDemo;
+			path = supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B1E0E4F21A9A7C400F8FBE2 /* LaunchScreen.storyboard in Resources */,
+				7B1E0E5A21A9AFE400F8FBE2 /* main.plist in Resources */,
 				7B1E0E4C21A9A7C400F8FBE2 /* Assets.xcassets in Resources */,
 				7B1E0E4A21A9A7C400F8FBE2 /* Main.storyboard in Resources */,
 			);
