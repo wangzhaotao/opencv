@@ -14,6 +14,49 @@
 		7B1E0E4F21A9A7C400F8FBE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E4D21A9A7C400F8FBE2 /* LaunchScreen.storyboard */; };
 		7B1E0E5221A9A7C400F8FBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E5121A9A7C400F8FBE2 /* main.m */; };
 		7B1E0E5A21A9AFE400F8FBE2 /* main.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E5921A9AFE400F8FBE2 /* main.plist */; };
+		7B1E0E6B21A9B92C00F8FBE2 /* WTGaussFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E5C21A9B92B00F8FBE2 /* WTGaussFilterVC.m */; };
+		7B1E0E6C21A9B92C00F8FBE2 /* WTHoughLinesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E5D21A9B92B00F8FBE2 /* WTHoughLinesVC.m */; };
+		7B1E0E6D21A9B92C00F8FBE2 /* WTDrawRectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E5E21A9B92B00F8FBE2 /* WTDrawRectController.xib */; };
+		7B1E0E6E21A9B92C00F8FBE2 /* WTFaceRectDetectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E5F21A9B92B00F8FBE2 /* WTFaceRectDetectionVC.m */; };
+		7B1E0E6F21A9B92C00F8FBE2 /* WTGaussFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E6121A9B92B00F8FBE2 /* WTGaussFilterVC.xib */; };
+		7B1E0E7021A9B92C00F8FBE2 /* WTMosaicImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E6221A9B92B00F8FBE2 /* WTMosaicImageVC.xib */; };
+		7B1E0E7121A9B92C00F8FBE2 /* WTDrawRectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E6321A9B92B00F8FBE2 /* WTDrawRectController.m */; };
+		7B1E0E7221A9B92C00F8FBE2 /* WTHoughLinesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E6621A9B92B00F8FBE2 /* WTHoughLinesVC.xib */; };
+		7B1E0E7321A9B92C00F8FBE2 /* WTMosaicImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E6721A9B92B00F8FBE2 /* WTMosaicImageVC.m */; };
+		7B1E0E7421A9B92C00F8FBE2 /* WTFaceRectDetectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E6921A9B92C00F8FBE2 /* WTFaceRectDetectionVC.xib */; };
+		7B1E0EAB21A9B94F00F8FBE2 /* HoughLinesTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E7821A9B94E00F8FBE2 /* HoughLinesTool.mm */; };
+		7B1E0EAC21A9B94F00F8FBE2 /* face4_me.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E7A21A9B94E00F8FBE2 /* face4_me.png */; };
+		7B1E0EAD21A9B94F00F8FBE2 /* lineimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E7B21A9B94E00F8FBE2 /* lineimg.png */; };
+		7B1E0EAE21A9B94F00F8FBE2 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E7C21A9B94E00F8FBE2 /* face.png */; };
+		7B1E0EAF21A9B94F00F8FBE2 /* face2_me.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E7D21A9B94E00F8FBE2 /* face2_me.png */; };
+		7B1E0EB021A9B94F00F8FBE2 /* face1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E7E21A9B94E00F8FBE2 /* face1.png */; };
+		7B1E0EB121A9B94F00F8FBE2 /* face0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E7F21A9B94E00F8FBE2 /* face0.png */; };
+		7B1E0EB221A9B94F00F8FBE2 /* face2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8021A9B94E00F8FBE2 /* face2.png */; };
+		7B1E0EB321A9B94F00F8FBE2 /* face3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8121A9B94E00F8FBE2 /* face3.png */; };
+		7B1E0EB421A9B94F00F8FBE2 /* face4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8221A9B94E00F8FBE2 /* face4.png */; };
+		7B1E0EB521A9B94F00F8FBE2 /* face5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8321A9B94E00F8FBE2 /* face5.png */; };
+		7B1E0EB621A9B94F00F8FBE2 /* face1_me.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8421A9B94E00F8FBE2 /* face1_me.png */; };
+		7B1E0EB721A9B94F00F8FBE2 /* face3_me.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8521A9B94E00F8FBE2 /* face3_me.png */; };
+		7B1E0EB821A9B94F00F8FBE2 /* ImageProcessUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8821A9B94E00F8FBE2 /* ImageProcessUtils.mm */; };
+		7B1E0EB921A9B94F00F8FBE2 /* GaussFilterTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8B21A9B94F00F8FBE2 /* GaussFilterTool.mm */; };
+		7B1E0EBA21A9B94F00F8FBE2 /* haarcascade_eye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8E21A9B94F00F8FBE2 /* haarcascade_eye.xml */; };
+		7B1E0EBB21A9B94F00F8FBE2 /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E8F21A9B94F00F8FBE2 /* haarcascade_frontalface_alt.xml */; };
+		7B1E0EBC21A9B94F00F8FBE2 /* FaceUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E9021A9B94F00F8FBE2 /* FaceUtils.mm */; };
+		7B1E0EBD21A9B94F00F8FBE2 /* bigger_rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E9521A9B94F00F8FBE2 /* bigger_rect.png */; };
+		7B1E0EBE21A9B94F00F8FBE2 /* reset_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E9621A9B94F00F8FBE2 /* reset_icon.png */; };
+		7B1E0EBF21A9B94F00F8FBE2 /* rect1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E9721A9B94F00F8FBE2 /* rect1.png */; };
+		7B1E0EC021A9B94F00F8FBE2 /* right_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E9821A9B94F00F8FBE2 /* right_icon.png */; };
+		7B1E0EC121A9B94F00F8FBE2 /* rotation_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0E9921A9B94F00F8FBE2 /* rotation_icon.png */; };
+		7B1E0EC221A9B94F00F8FBE2 /* TJPointCircleView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E9A21A9B94F00F8FBE2 /* TJPointCircleView+Extension.m */; };
+		7B1E0EC321A9B94F00F8FBE2 /* TJRectDectectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E9B21A9B94F00F8FBE2 /* TJRectDectectController.m */; };
+		7B1E0EC421A9B94F00F8FBE2 /* TJRectDectectPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0E9D21A9B94F00F8FBE2 /* TJRectDectectPreviewController.m */; };
+		7B1E0EC521A9B94F00F8FBE2 /* TJLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0EA221A9B94F00F8FBE2 /* TJLineModel.m */; };
+		7B1E0EC621A9B94F00F8FBE2 /* TJPointCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0EA321A9B94F00F8FBE2 /* TJPointCircleView.m */; };
+		7B1E0EC721A9B94F00F8FBE2 /* TJRectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0EA421A9B94F00F8FBE2 /* TJRectModel.m */; };
+		7B1E0EC821A9B94F00F8FBE2 /* TJRectDectectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0EA621A9B94F00F8FBE2 /* TJRectDectectController.xib */; };
+		7B1E0EC921A9B94F00F8FBE2 /* TJRectDectectView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0EA821A9B94F00F8FBE2 /* TJRectDectectView.mm */; };
+		7B1E0ECA21A9B94F00F8FBE2 /* TJRectDectectPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0EA921A9B94F00F8FBE2 /* TJRectDectectPreviewController.xib */; };
+		7B1E0ECB21A9B94F00F8FBE2 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0EAA21A9B94F00F8FBE2 /* UIImage+fixOrientation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +71,66 @@
 		7B1E0E5021A9A7C400F8FBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B1E0E5121A9A7C400F8FBE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B1E0E5921A9AFE400F8FBE2 /* main.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = main.plist; sourceTree = "<group>"; };
+		7B1E0E5C21A9B92B00F8FBE2 /* WTGaussFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTGaussFilterVC.m; sourceTree = "<group>"; };
+		7B1E0E5D21A9B92B00F8FBE2 /* WTHoughLinesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTHoughLinesVC.m; sourceTree = "<group>"; };
+		7B1E0E5E21A9B92B00F8FBE2 /* WTDrawRectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTDrawRectController.xib; sourceTree = "<group>"; };
+		7B1E0E5F21A9B92B00F8FBE2 /* WTFaceRectDetectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFaceRectDetectionVC.m; sourceTree = "<group>"; };
+		7B1E0E6021A9B92B00F8FBE2 /* WTDrawRectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTDrawRectController.h; sourceTree = "<group>"; };
+		7B1E0E6121A9B92B00F8FBE2 /* WTGaussFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTGaussFilterVC.xib; sourceTree = "<group>"; };
+		7B1E0E6221A9B92B00F8FBE2 /* WTMosaicImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTMosaicImageVC.xib; sourceTree = "<group>"; };
+		7B1E0E6321A9B92B00F8FBE2 /* WTDrawRectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTDrawRectController.m; sourceTree = "<group>"; };
+		7B1E0E6421A9B92B00F8FBE2 /* WTHoughLinesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTHoughLinesVC.h; sourceTree = "<group>"; };
+		7B1E0E6521A9B92B00F8FBE2 /* WTGaussFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTGaussFilterVC.h; sourceTree = "<group>"; };
+		7B1E0E6621A9B92B00F8FBE2 /* WTHoughLinesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTHoughLinesVC.xib; sourceTree = "<group>"; };
+		7B1E0E6721A9B92B00F8FBE2 /* WTMosaicImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTMosaicImageVC.m; sourceTree = "<group>"; };
+		7B1E0E6821A9B92C00F8FBE2 /* WTMosaicImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTMosaicImageVC.h; sourceTree = "<group>"; };
+		7B1E0E6921A9B92C00F8FBE2 /* WTFaceRectDetectionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTFaceRectDetectionVC.xib; sourceTree = "<group>"; };
+		7B1E0E6A21A9B92C00F8FBE2 /* WTFaceRectDetectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTFaceRectDetectionVC.h; sourceTree = "<group>"; };
+		7B1E0E7721A9B94E00F8FBE2 /* HoughLinesTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoughLinesTool.h; sourceTree = "<group>"; };
+		7B1E0E7821A9B94E00F8FBE2 /* HoughLinesTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HoughLinesTool.mm; sourceTree = "<group>"; };
+		7B1E0E7A21A9B94E00F8FBE2 /* face4_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face4_me.png; sourceTree = "<group>"; };
+		7B1E0E7B21A9B94E00F8FBE2 /* lineimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lineimg.png; sourceTree = "<group>"; };
+		7B1E0E7C21A9B94E00F8FBE2 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		7B1E0E7D21A9B94E00F8FBE2 /* face2_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face2_me.png; sourceTree = "<group>"; };
+		7B1E0E7E21A9B94E00F8FBE2 /* face1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face1.png; sourceTree = "<group>"; };
+		7B1E0E7F21A9B94E00F8FBE2 /* face0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face0.png; sourceTree = "<group>"; };
+		7B1E0E8021A9B94E00F8FBE2 /* face2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face2.png; sourceTree = "<group>"; };
+		7B1E0E8121A9B94E00F8FBE2 /* face3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face3.png; sourceTree = "<group>"; };
+		7B1E0E8221A9B94E00F8FBE2 /* face4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face4.png; sourceTree = "<group>"; };
+		7B1E0E8321A9B94E00F8FBE2 /* face5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face5.png; sourceTree = "<group>"; };
+		7B1E0E8421A9B94E00F8FBE2 /* face1_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face1_me.png; sourceTree = "<group>"; };
+		7B1E0E8521A9B94E00F8FBE2 /* face3_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face3_me.png; sourceTree = "<group>"; };
+		7B1E0E8721A9B94E00F8FBE2 /* ImageProcessUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessUtils.h; sourceTree = "<group>"; };
+		7B1E0E8821A9B94E00F8FBE2 /* ImageProcessUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessUtils.mm; sourceTree = "<group>"; };
+		7B1E0E8A21A9B94F00F8FBE2 /* GaussFilterTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaussFilterTool.h; sourceTree = "<group>"; };
+		7B1E0E8B21A9B94F00F8FBE2 /* GaussFilterTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GaussFilterTool.mm; sourceTree = "<group>"; };
+		7B1E0E8D21A9B94F00F8FBE2 /* FaceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceUtils.h; sourceTree = "<group>"; };
+		7B1E0E8E21A9B94F00F8FBE2 /* haarcascade_eye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye.xml; sourceTree = "<group>"; };
+		7B1E0E8F21A9B94F00F8FBE2 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		7B1E0E9021A9B94F00F8FBE2 /* FaceUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FaceUtils.mm; sourceTree = "<group>"; };
+		7B1E0E9221A9B94F00F8FBE2 /* TJRectDectectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJRectDectectView.h; sourceTree = "<group>"; };
+		7B1E0E9321A9B94F00F8FBE2 /* TJRectDectectPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJRectDectectPreviewController.h; sourceTree = "<group>"; };
+		7B1E0E9521A9B94F00F8FBE2 /* bigger_rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigger_rect.png; sourceTree = "<group>"; };
+		7B1E0E9621A9B94F00F8FBE2 /* reset_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset_icon.png; sourceTree = "<group>"; };
+		7B1E0E9721A9B94F00F8FBE2 /* rect1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect1.png; sourceTree = "<group>"; };
+		7B1E0E9821A9B94F00F8FBE2 /* right_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_icon.png; sourceTree = "<group>"; };
+		7B1E0E9921A9B94F00F8FBE2 /* rotation_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotation_icon.png; sourceTree = "<group>"; };
+		7B1E0E9A21A9B94F00F8FBE2 /* TJPointCircleView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TJPointCircleView+Extension.m"; sourceTree = "<group>"; };
+		7B1E0E9B21A9B94F00F8FBE2 /* TJRectDectectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJRectDectectController.m; sourceTree = "<group>"; };
+		7B1E0E9C21A9B94F00F8FBE2 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		7B1E0E9D21A9B94F00F8FBE2 /* TJRectDectectPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJRectDectectPreviewController.m; sourceTree = "<group>"; };
+		7B1E0E9F21A9B94F00F8FBE2 /* TJLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJLineModel.h; sourceTree = "<group>"; };
+		7B1E0EA021A9B94F00F8FBE2 /* TJRectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJRectModel.h; sourceTree = "<group>"; };
+		7B1E0EA121A9B94F00F8FBE2 /* TJPointCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJPointCircleView.h; sourceTree = "<group>"; };
+		7B1E0EA221A9B94F00F8FBE2 /* TJLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJLineModel.m; sourceTree = "<group>"; };
+		7B1E0EA321A9B94F00F8FBE2 /* TJPointCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJPointCircleView.m; sourceTree = "<group>"; };
+		7B1E0EA421A9B94F00F8FBE2 /* TJRectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJRectModel.m; sourceTree = "<group>"; };
+		7B1E0EA521A9B94F00F8FBE2 /* TJRectDectectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJRectDectectController.h; sourceTree = "<group>"; };
+		7B1E0EA621A9B94F00F8FBE2 /* TJRectDectectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TJRectDectectController.xib; sourceTree = "<group>"; };
+		7B1E0EA721A9B94F00F8FBE2 /* TJPointCircleView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TJPointCircleView+Extension.h"; sourceTree = "<group>"; };
+		7B1E0EA821A9B94F00F8FBE2 /* TJRectDectectView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TJRectDectectView.mm; sourceTree = "<group>"; };
+		7B1E0EA921A9B94F00F8FBE2 /* TJRectDectectPreviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TJRectDectectPreviewController.xib; sourceTree = "<group>"; };
+		7B1E0EAA21A9B94F00F8FBE2 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +163,12 @@
 		7B1E0E4121A9A7C400F8FBE2 /* iOSOpenCVDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7B1E0E7521A9B94400F8FBE2 /* tools */,
 				7B1E0E4221A9A7C400F8FBE2 /* AppDelegate.h */,
 				7B1E0E4321A9A7C400F8FBE2 /* AppDelegate.m */,
 				7B1E0E4521A9A7C400F8FBE2 /* ViewController.h */,
 				7B1E0E4621A9A7C400F8FBE2 /* ViewController.m */,
+				7B1E0E5B21A9B91900F8FBE2 /* controllers */,
 				7B1E0E5821A9AF9000F8FBE2 /* supports */,
 				7B1E0E5021A9A7C400F8FBE2 /* Info.plist */,
 			);
@@ -80,6 +185,144 @@
 				7B1E0E5121A9A7C400F8FBE2 /* main.m */,
 			);
 			path = supports;
+			sourceTree = "<group>";
+		};
+		7B1E0E5B21A9B91900F8FBE2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E6021A9B92B00F8FBE2 /* WTDrawRectController.h */,
+				7B1E0E6321A9B92B00F8FBE2 /* WTDrawRectController.m */,
+				7B1E0E5E21A9B92B00F8FBE2 /* WTDrawRectController.xib */,
+				7B1E0E6A21A9B92C00F8FBE2 /* WTFaceRectDetectionVC.h */,
+				7B1E0E5F21A9B92B00F8FBE2 /* WTFaceRectDetectionVC.m */,
+				7B1E0E6921A9B92C00F8FBE2 /* WTFaceRectDetectionVC.xib */,
+				7B1E0E6521A9B92B00F8FBE2 /* WTGaussFilterVC.h */,
+				7B1E0E5C21A9B92B00F8FBE2 /* WTGaussFilterVC.m */,
+				7B1E0E6121A9B92B00F8FBE2 /* WTGaussFilterVC.xib */,
+				7B1E0E6421A9B92B00F8FBE2 /* WTHoughLinesVC.h */,
+				7B1E0E5D21A9B92B00F8FBE2 /* WTHoughLinesVC.m */,
+				7B1E0E6621A9B92B00F8FBE2 /* WTHoughLinesVC.xib */,
+				7B1E0E6821A9B92C00F8FBE2 /* WTMosaicImageVC.h */,
+				7B1E0E6721A9B92B00F8FBE2 /* WTMosaicImageVC.m */,
+				7B1E0E6221A9B92B00F8FBE2 /* WTMosaicImageVC.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		7B1E0E7521A9B94400F8FBE2 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E8921A9B94F00F8FBE2 /* GaussFilter */,
+				7B1E0E7621A9B94E00F8FBE2 /* HoughLines */,
+				7B1E0E7921A9B94E00F8FBE2 /* images */,
+				7B1E0E8621A9B94E00F8FBE2 /* MosaicProcess */,
+				7B1E0E9121A9B94F00F8FBE2 /* RectDetection */,
+				7B1E0E8C21A9B94F00F8FBE2 /* Utils */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		7B1E0E7621A9B94E00F8FBE2 /* HoughLines */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E7721A9B94E00F8FBE2 /* HoughLinesTool.h */,
+				7B1E0E7821A9B94E00F8FBE2 /* HoughLinesTool.mm */,
+			);
+			path = HoughLines;
+			sourceTree = "<group>";
+		};
+		7B1E0E7921A9B94E00F8FBE2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E7A21A9B94E00F8FBE2 /* face4_me.png */,
+				7B1E0E7B21A9B94E00F8FBE2 /* lineimg.png */,
+				7B1E0E7C21A9B94E00F8FBE2 /* face.png */,
+				7B1E0E7D21A9B94E00F8FBE2 /* face2_me.png */,
+				7B1E0E7E21A9B94E00F8FBE2 /* face1.png */,
+				7B1E0E7F21A9B94E00F8FBE2 /* face0.png */,
+				7B1E0E8021A9B94E00F8FBE2 /* face2.png */,
+				7B1E0E8121A9B94E00F8FBE2 /* face3.png */,
+				7B1E0E8221A9B94E00F8FBE2 /* face4.png */,
+				7B1E0E8321A9B94E00F8FBE2 /* face5.png */,
+				7B1E0E8421A9B94E00F8FBE2 /* face1_me.png */,
+				7B1E0E8521A9B94E00F8FBE2 /* face3_me.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		7B1E0E8621A9B94E00F8FBE2 /* MosaicProcess */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E8721A9B94E00F8FBE2 /* ImageProcessUtils.h */,
+				7B1E0E8821A9B94E00F8FBE2 /* ImageProcessUtils.mm */,
+			);
+			path = MosaicProcess;
+			sourceTree = "<group>";
+		};
+		7B1E0E8921A9B94F00F8FBE2 /* GaussFilter */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E8A21A9B94F00F8FBE2 /* GaussFilterTool.h */,
+				7B1E0E8B21A9B94F00F8FBE2 /* GaussFilterTool.mm */,
+			);
+			path = GaussFilter;
+			sourceTree = "<group>";
+		};
+		7B1E0E8C21A9B94F00F8FBE2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E8D21A9B94F00F8FBE2 /* FaceUtils.h */,
+				7B1E0E8E21A9B94F00F8FBE2 /* haarcascade_eye.xml */,
+				7B1E0E8F21A9B94F00F8FBE2 /* haarcascade_frontalface_alt.xml */,
+				7B1E0E9021A9B94F00F8FBE2 /* FaceUtils.mm */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7B1E0E9121A9B94F00F8FBE2 /* RectDetection */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E9221A9B94F00F8FBE2 /* TJRectDectectView.h */,
+				7B1E0E9321A9B94F00F8FBE2 /* TJRectDectectPreviewController.h */,
+				7B1E0E9421A9B94F00F8FBE2 /* images */,
+				7B1E0E9A21A9B94F00F8FBE2 /* TJPointCircleView+Extension.m */,
+				7B1E0E9B21A9B94F00F8FBE2 /* TJRectDectectController.m */,
+				7B1E0E9C21A9B94F00F8FBE2 /* UIImage+fixOrientation.h */,
+				7B1E0E9D21A9B94F00F8FBE2 /* TJRectDectectPreviewController.m */,
+				7B1E0E9E21A9B94F00F8FBE2 /* Model */,
+				7B1E0EA521A9B94F00F8FBE2 /* TJRectDectectController.h */,
+				7B1E0EA621A9B94F00F8FBE2 /* TJRectDectectController.xib */,
+				7B1E0EA721A9B94F00F8FBE2 /* TJPointCircleView+Extension.h */,
+				7B1E0EA821A9B94F00F8FBE2 /* TJRectDectectView.mm */,
+				7B1E0EA921A9B94F00F8FBE2 /* TJRectDectectPreviewController.xib */,
+				7B1E0EAA21A9B94F00F8FBE2 /* UIImage+fixOrientation.m */,
+			);
+			path = RectDetection;
+			sourceTree = "<group>";
+		};
+		7B1E0E9421A9B94F00F8FBE2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E9521A9B94F00F8FBE2 /* bigger_rect.png */,
+				7B1E0E9621A9B94F00F8FBE2 /* reset_icon.png */,
+				7B1E0E9721A9B94F00F8FBE2 /* rect1.png */,
+				7B1E0E9821A9B94F00F8FBE2 /* right_icon.png */,
+				7B1E0E9921A9B94F00F8FBE2 /* rotation_icon.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		7B1E0E9E21A9B94F00F8FBE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B1E0E9F21A9B94F00F8FBE2 /* TJLineModel.h */,
+				7B1E0EA021A9B94F00F8FBE2 /* TJRectModel.h */,
+				7B1E0EA121A9B94F00F8FBE2 /* TJPointCircleView.h */,
+				7B1E0EA221A9B94F00F8FBE2 /* TJLineModel.m */,
+				7B1E0EA321A9B94F00F8FBE2 /* TJPointCircleView.m */,
+				7B1E0EA421A9B94F00F8FBE2 /* TJRectModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,10 +382,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1E0EB121A9B94F00F8FBE2 /* face0.png in Resources */,
+				7B1E0EB521A9B94F00F8FBE2 /* face5.png in Resources */,
 				7B1E0E4F21A9A7C400F8FBE2 /* LaunchScreen.storyboard in Resources */,
+				7B1E0E6F21A9B92C00F8FBE2 /* WTGaussFilterVC.xib in Resources */,
+				7B1E0EB621A9B94F00F8FBE2 /* face1_me.png in Resources */,
+				7B1E0EB421A9B94F00F8FBE2 /* face4.png in Resources */,
+				7B1E0EAF21A9B94F00F8FBE2 /* face2_me.png in Resources */,
+				7B1E0EB321A9B94F00F8FBE2 /* face3.png in Resources */,
+				7B1E0EAE21A9B94F00F8FBE2 /* face.png in Resources */,
+				7B1E0EAD21A9B94F00F8FBE2 /* lineimg.png in Resources */,
+				7B1E0EBE21A9B94F00F8FBE2 /* reset_icon.png in Resources */,
+				7B1E0ECA21A9B94F00F8FBE2 /* TJRectDectectPreviewController.xib in Resources */,
+				7B1E0EBB21A9B94F00F8FBE2 /* haarcascade_frontalface_alt.xml in Resources */,
+				7B1E0EBA21A9B94F00F8FBE2 /* haarcascade_eye.xml in Resources */,
 				7B1E0E5A21A9AFE400F8FBE2 /* main.plist in Resources */,
+				7B1E0E6D21A9B92C00F8FBE2 /* WTDrawRectController.xib in Resources */,
+				7B1E0EC821A9B94F00F8FBE2 /* TJRectDectectController.xib in Resources */,
 				7B1E0E4C21A9A7C400F8FBE2 /* Assets.xcassets in Resources */,
+				7B1E0EBD21A9B94F00F8FBE2 /* bigger_rect.png in Resources */,
+				7B1E0E7221A9B92C00F8FBE2 /* WTHoughLinesVC.xib in Resources */,
+				7B1E0E7421A9B92C00F8FBE2 /* WTFaceRectDetectionVC.xib in Resources */,
 				7B1E0E4A21A9A7C400F8FBE2 /* Main.storyboard in Resources */,
+				7B1E0E7021A9B92C00F8FBE2 /* WTMosaicImageVC.xib in Resources */,
+				7B1E0EB221A9B94F00F8FBE2 /* face2.png in Resources */,
+				7B1E0EB021A9B94F00F8FBE2 /* face1.png in Resources */,
+				7B1E0EC021A9B94F00F8FBE2 /* right_icon.png in Resources */,
+				7B1E0EC121A9B94F00F8FBE2 /* rotation_icon.png in Resources */,
+				7B1E0EBF21A9B94F00F8FBE2 /* rect1.png in Resources */,
+				7B1E0EB721A9B94F00F8FBE2 /* face3_me.png in Resources */,
+				7B1E0EAC21A9B94F00F8FBE2 /* face4_me.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,9 +422,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1E0EBC21A9B94F00F8FBE2 /* FaceUtils.mm in Sources */,
+				7B1E0EC721A9B94F00F8FBE2 /* TJRectModel.m in Sources */,
 				7B1E0E4721A9A7C400F8FBE2 /* ViewController.m in Sources */,
+				7B1E0EC621A9B94F00F8FBE2 /* TJPointCircleView.m in Sources */,
+				7B1E0EC921A9B94F00F8FBE2 /* TJRectDectectView.mm in Sources */,
+				7B1E0E6B21A9B92C00F8FBE2 /* WTGaussFilterVC.m in Sources */,
 				7B1E0E5221A9A7C400F8FBE2 /* main.m in Sources */,
+				7B1E0EB821A9B94F00F8FBE2 /* ImageProcessUtils.mm in Sources */,
+				7B1E0E6C21A9B92C00F8FBE2 /* WTHoughLinesVC.m in Sources */,
+				7B1E0EC321A9B94F00F8FBE2 /* TJRectDectectController.m in Sources */,
+				7B1E0ECB21A9B94F00F8FBE2 /* UIImage+fixOrientation.m in Sources */,
+				7B1E0E7121A9B92C00F8FBE2 /* WTDrawRectController.m in Sources */,
+				7B1E0EC421A9B94F00F8FBE2 /* TJRectDectectPreviewController.m in Sources */,
+				7B1E0EB921A9B94F00F8FBE2 /* GaussFilterTool.mm in Sources */,
+				7B1E0E6E21A9B92C00F8FBE2 /* WTFaceRectDetectionVC.m in Sources */,
 				7B1E0E4421A9A7C400F8FBE2 /* AppDelegate.m in Sources */,
+				7B1E0EC221A9B94F00F8FBE2 /* TJPointCircleView+Extension.m in Sources */,
+				7B1E0E7321A9B92C00F8FBE2 /* WTMosaicImageVC.m in Sources */,
+				7B1E0EAB21A9B94F00F8FBE2 /* HoughLinesTool.mm in Sources */,
+				7B1E0EC521A9B94F00F8FBE2 /* TJLineModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
