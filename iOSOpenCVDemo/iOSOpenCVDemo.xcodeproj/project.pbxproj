@@ -57,6 +57,7 @@
 		7B1E0EC921A9B94F00F8FBE2 /* TJRectDectectView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0EA821A9B94F00F8FBE2 /* TJRectDectectView.mm */; };
 		7B1E0ECA21A9B94F00F8FBE2 /* TJRectDectectPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E0EA921A9B94F00F8FBE2 /* TJRectDectectPreviewController.xib */; };
 		7B1E0ECB21A9B94F00F8FBE2 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E0EAA21A9B94F00F8FBE2 /* UIImage+fixOrientation.m */; };
+		8E324B0A21AD7814009B7C9E /* RectCorrectionTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E324B0921AD7814009B7C9E /* RectCorrectionTool.mm */; };
 		EADF123EAE758DF4071EFFE9 /* Pods_iOSOpenCVDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C6C691DC47AB1E6C084BC5 /* Pods_iOSOpenCVDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +134,8 @@
 		7B1E0EA821A9B94F00F8FBE2 /* TJRectDectectView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TJRectDectectView.mm; sourceTree = "<group>"; };
 		7B1E0EA921A9B94F00F8FBE2 /* TJRectDectectPreviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TJRectDectectPreviewController.xib; sourceTree = "<group>"; };
 		7B1E0EAA21A9B94F00F8FBE2 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		8E324B0821AD7814009B7C9E /* RectCorrectionTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectCorrectionTool.h; sourceTree = "<group>"; };
+		8E324B0921AD7814009B7C9E /* RectCorrectionTool.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RectCorrectionTool.mm; sourceTree = "<group>"; };
 		9D430188BF7935EF92A170E4 /* Pods-iOSOpenCVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSOpenCVDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSOpenCVDemo/Pods-iOSOpenCVDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B4C6C691DC47AB1E6C084BC5 /* Pods_iOSOpenCVDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSOpenCVDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -228,6 +231,7 @@
 		7B1E0E7521A9B94400F8FBE2 /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				8E324B0721AD775D009B7C9E /* RectCorrection */,
 				7B1E0E8921A9B94F00F8FBE2 /* GaussFilter */,
 				7B1E0E7621A9B94E00F8FBE2 /* HoughLines */,
 				7B1E0E7921A9B94E00F8FBE2 /* images */,
@@ -339,6 +343,15 @@
 				7B1E0EA421A9B94F00F8FBE2 /* TJRectModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8E324B0721AD775D009B7C9E /* RectCorrection */ = {
+			isa = PBXGroup;
+			children = (
+				8E324B0821AD7814009B7C9E /* RectCorrectionTool.h */,
+				8E324B0921AD7814009B7C9E /* RectCorrectionTool.mm */,
+			);
+			path = RectCorrection;
 			sourceTree = "<group>";
 		};
 		90605456E0AF098154F97D01 /* Frameworks */ = {
@@ -507,6 +520,7 @@
 				7B1E0E7321A9B92C00F8FBE2 /* WTMosaicImageVC.m in Sources */,
 				7B1E0EAB21A9B94F00F8FBE2 /* HoughLinesTool.mm in Sources */,
 				7B1E0EC521A9B94F00F8FBE2 /* TJLineModel.m in Sources */,
+				8E324B0A21AD7814009B7C9E /* RectCorrectionTool.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +664,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNS9QEVKGH;
 				INFOPLIST_FILE = iOSOpenCVDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -667,6 +682,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNS9QEVKGH;
 				INFOPLIST_FILE = iOSOpenCVDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
