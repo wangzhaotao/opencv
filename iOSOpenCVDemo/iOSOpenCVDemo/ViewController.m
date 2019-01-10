@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WTRealTimeRectDetectionVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -43,25 +44,14 @@
 }
 
 #pragma mark actions
--(void)faceAndRectDetectAction:(NSIndexPath*)idxPath {
+-(void)clickCellAction:(NSIndexPath*)idxPath {
     
-    
-}
--(void)mosaicProcessAction:(NSIndexPath*)idxPath {
-    
-    
-}
--(void)drawGestureRectAction:(NSIndexPath*)idxPath {
-    
-    
-}
--(void)filteAction:(NSIndexPath*)idxPath {
-    
-    
-}
--(void)houghAction:(NSIndexPath*)idxPath {
-    
-    
+    NSDictionary *dic = self.dataArray[idxPath.row];
+    NSString *vcName = dic[@"vc"];
+    if (vcName) {
+        UIViewController *controller = [NSClassFromString(vcName) new];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
 }
 
 
@@ -84,7 +74,7 @@
     NSString *method = dic[@"method"];
     SEL methodAction = NSSelectorFromString(method);
     if ([self respondsToSelector:methodAction]) {
-        [self performSelector:methodAction withObject:nil afterDelay:0];
+        [self performSelector:methodAction withObject:indexPath afterDelay:0];
     }
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
